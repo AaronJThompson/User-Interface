@@ -76,8 +76,16 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 header {
-	width: 100%;
-	margin-bottom: 50px;
+	width: 900px;
+	margin-bottom: 0px;
+	z-index: 1;
+	position: fixed;
+	background-color: cornflowerblue;
+	height: 50px;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	top:0;
 }
 nav {
 	margin: 0 0;
@@ -87,7 +95,7 @@ nav {
 }
 nav a{
 	text-decoration: none;
-	color: gray;
+	color: white;
 	text-align: center;
 	display: inline-block;
 	width: 16.66%;
