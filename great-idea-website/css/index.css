@@ -70,3 +70,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	margin-bottom: 50px;
+}
+nav {
+	margin: 0 0;
+	padding: 0 0;
+	display: inline-table;
+	width: 60%
+}
+nav a{
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+	display: inline-block;
+	width: 16.66%;
+}
+.logo{
+	display: inline-block;
+	margin-left: 16%; 
+	margin-right:0;
+}
