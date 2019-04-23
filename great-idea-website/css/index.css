@@ -97,3 +97,42 @@ nav a{
 	margin-left: 16%; 
 	margin-right:0;
 }
+section{
+	width: 100%;
+}
+#top-left-container{
+	vertical-align: middle;
+	margin: 0 0;
+	display: inline-block;
+	width: 49.5%;
+	overflow: hidden;
+}
+#top-right-container{
+	
+	vertical-align: middle;
+	margin: 0 0;
+	display: inline-block;
+	width: 49.5%;
+	overflow: hidden;
+}
+#header-img{
+	width: 80%;
+	vertical-align: middle;
+	float: right;
+}
+h1 {
+	font-size: 400%;
+}
+#innovation{
+	text-align: center;
+	margin: 0 auto;
+}
+#start-button{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 10px auto;
+	display: block;
+	background-color: white;
+	text-decoration: none;
+	padding: 0 30px;
+	border: 1px solid black;
+}
